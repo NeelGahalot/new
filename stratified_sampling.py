@@ -10,8 +10,8 @@ def get_argparser():
     parser = argparse.ArgumentParser()
 
     # Dataset Options confidence_processed.csv Deeplab/pilot_eastafrica_haiti_freetown_WITH_deeplab_crf_sam.csv
-    parser.add_argument("--query_url", default='https://prod-k8s.treetracker.org/query/trees?', type=str,
-                        help="Path to SAM Directory")
+    parser.add_argument("--query_url", default='', type=str,
+                        help="Query URL for production database.")
     parser.add_argument("--output_file_path", default='/teamspace/studios/this_studio/big_production_sampling.csv', type=str,
                         help="Path to the output csv.")
     parser.add_argument("--total_count", default=40000, type=int,
