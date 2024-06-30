@@ -1,0 +1,10 @@
+DATASET:
+  TRAIN_PATH: "./dataset/train"
+  TEST_PATH: "./dataset/test"
+
+SAM:
+  CHECKPOINT: "/teamspace/studios/this_studio/Sam_LoRA/sam_lora_model_train.pth"
+  RANK: 512
+TRAIN:
+  BATCH_SIZE: 1
+  NUM_EPOCHS: 50

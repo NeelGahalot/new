@@ -1,0 +1,5 @@
+/teamspace/studios/this_studio/sensitive_check.py
+/teamspace/studios/this_studio/SAM_Dino_Deeplab.ipynb
+/teamspace/studios/this_studio/Deeplab/overlay_predict.ipynb
+/teamspace/studios/this_studio/Deeplab/credentials.env
+/teamspace/studios/this_studio/.ipython/profile_default/history.sqlite

@@ -1,0 +1,6 @@
+[submodule "weights"]
+	path = weights
+	url = /weights
+[submodule "Deeplab"]
+	path = Deeplab
+	url = /Deeplab

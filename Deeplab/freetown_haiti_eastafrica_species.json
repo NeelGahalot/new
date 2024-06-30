@@ -1,0 +1,44 @@
+{
+    "_comment": "This JSON file contains lists of species for different regions that checkpoint inhouse_default was trained on. Note, inhouse_default does not include all the species from their respective regions.",
+    "freetown_species": [
+        "GMELARBO",
+        "TECTGRAN",
+        "TAMAINDI",
+        "MORIOLEI",
+        "ANNOMURI",
+        "ANACOCCI",
+        "GLIRSEPI",
+        "AZADINDI",
+        "MANGINDI"
+    ],
+    "haiti_species": [
+        "DOMBTORR",
+        "SIMAGLAU",
+        "CATALONG",
+        "MANGINDI",
+        "SENNSIAM",
+        "ANACOCCI",
+        "CEDRODOR",
+        "ACACAURI"
+    ],
+    "eastafrica_species": [
+        "CAPEMAHO",
+        "AVICENNI",
+        "NEWTBUCH",
+        "CORDAFRI",
+        "GMELARBO",
+        "NANDYFLA",
+        "PERSAMER",
+        "RAUVCAFF",
+        "OLEACAPE",
+        "CEDRODOR",
+        "ARTOHETE",
+        "CITR0000",
+        "ALBIZIAC",
+        "MANGINDI",
+        "ACACTORT",
+        "AFZELIAA",
+        "MARKLUTE",
+        "MILICIAE"
+    ]
+}

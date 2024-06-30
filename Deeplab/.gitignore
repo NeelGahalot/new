@@ -1,0 +1,11 @@
+# Example .gitignore file
+*.csv
+*.jpg
+*.ipynb
+*.pyc
+*.env
+*.npy
+*.pth
+process_confidence.py
+dataset_cleaned_download.py
+dataset_download.py

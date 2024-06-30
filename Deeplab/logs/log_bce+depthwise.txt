@@ -1,0 +1,191 @@
+Device: cuda
+Dataset: custom, Train set: 131, Val set: 38
+[!] Retrain
+Epoch 2, Itrs 10/800, Loss=0.332509
+Epoch 3, Itrs 20/800, Loss=0.238468
+Epoch 4, Itrs 30/800, Loss=0.167244
+Epoch 5, Itrs 40/800, Loss=0.163155
+Epoch 7, Itrs 50/800, Loss=0.125625
+Epoch 8, Itrs 60/800, Loss=0.098601
+Epoch 9, Itrs 70/800, Loss=0.104470
+Epoch 10, Itrs 80/800, Loss=0.099281
+Epoch 12, Itrs 90/800, Loss=0.081738
+Epoch 13, Itrs 100/800, Loss=0.087076
+Model saved as checkpoints/latest_deeplabv3plus_mobilenet_custom_os16.pth
+validation...
+10it [00:01,  8.42it/s]
+
+Foreground Acc: 0.666269
+Precision: 0.899672
+Recall: 0.666269
+F1 Score: 0.765576
+IoU Foreground: 0.620189
+IoU Background: 0.932548
+Mean IoU: 0.776368
+
+Validation Loss: 0.187025
+Epoch 14, Itrs 110/800, Loss=0.071420
+Epoch 15, Itrs 120/800, Loss=0.074299
+Epoch 17, Itrs 130/800, Loss=0.063212
+Epoch 18, Itrs 140/800, Loss=0.064906
+Epoch 19, Itrs 150/800, Loss=0.059593
+Epoch 20, Itrs 160/800, Loss=0.062842
+Epoch 22, Itrs 170/800, Loss=0.057839
+Epoch 23, Itrs 180/800, Loss=0.057892
+Epoch 24, Itrs 190/800, Loss=0.055252
+Epoch 25, Itrs 200/800, Loss=0.063238
+Model saved as checkpoints/latest_deeplabv3plus_mobilenet_custom_os16.pth
+validation...
+10it [00:01,  8.56it/s]
+
+Foreground Acc: 0.782471
+Precision: 0.880321
+Recall: 0.782471
+F1 Score: 0.828517
+IoU Foreground: 0.707238
+IoU Background: 0.945406
+Mean IoU: 0.826322
+
+Validation Loss: 0.150107
+Epoch 27, Itrs 210/800, Loss=0.060040
+Epoch 28, Itrs 220/800, Loss=0.051749
+Epoch 29, Itrs 230/800, Loss=0.050953
+Epoch 30, Itrs 240/800, Loss=0.052947
+Epoch 32, Itrs 250/800, Loss=0.052414
+Epoch 33, Itrs 260/800, Loss=0.051536
+Epoch 34, Itrs 270/800, Loss=0.051480
+Epoch 35, Itrs 280/800, Loss=0.052495
+Epoch 37, Itrs 290/800, Loss=0.056170
+Epoch 38, Itrs 300/800, Loss=0.047414
+Model saved as checkpoints/latest_deeplabv3plus_mobilenet_custom_os16.pth
+validation...
+10it [00:01,  5.30it/s]
+
+Foreground Acc: 0.800469
+Precision: 0.857605
+Recall: 0.800469
+F1 Score: 0.828053
+IoU Foreground: 0.706561
+IoU Background: 0.943797
+Mean IoU: 0.825179
+
+Validation Loss: 0.157256
+Epoch 39, Itrs 310/800, Loss=0.052539
+Epoch 40, Itrs 320/800, Loss=0.046767
+Epoch 42, Itrs 330/800, Loss=0.048693
+Epoch 43, Itrs 340/800, Loss=0.047121
+Epoch 44, Itrs 350/800, Loss=0.043468
+Epoch 45, Itrs 360/800, Loss=0.049655
+Epoch 47, Itrs 370/800, Loss=0.048447
+Epoch 48, Itrs 380/800, Loss=0.045498
+Epoch 49, Itrs 390/800, Loss=0.043523
+Epoch 50, Itrs 400/800, Loss=0.049309
+Model saved as checkpoints/latest_deeplabv3plus_mobilenet_custom_os16.pth
+validation...
+10it [00:01,  8.81it/s]
+
+Foreground Acc: 0.792836
+Precision: 0.863646
+Recall: 0.792836
+F1 Score: 0.826728
+IoU Foreground: 0.704634
+IoU Background: 0.943886
+Mean IoU: 0.824260
+
+Validation Loss: 0.177925
+Epoch 52, Itrs 410/800, Loss=0.047457
+Epoch 53, Itrs 420/800, Loss=0.046702
+Epoch 54, Itrs 430/800, Loss=0.047883
+Epoch 55, Itrs 440/800, Loss=0.041630
+Epoch 57, Itrs 450/800, Loss=0.045710
+Epoch 58, Itrs 460/800, Loss=0.042061
+Epoch 59, Itrs 470/800, Loss=0.046260
+Epoch 60, Itrs 480/800, Loss=0.041395
+Epoch 62, Itrs 490/800, Loss=0.042405
+Epoch 63, Itrs 500/800, Loss=0.042017
+Model saved as checkpoints/latest_deeplabv3plus_mobilenet_custom_os16.pth
+validation...
+10it [00:01,  6.20it/s]
+
+Foreground Acc: 0.785021
+Precision: 0.869905
+Recall: 0.785021
+F1 Score: 0.825286
+IoU Foreground: 0.702542
+IoU Background: 0.943953
+Mean IoU: 0.823248
+
+Validation Loss: 0.172207
+Early stopping triggered after 5 validation intervals
+Epoch 65, Itrs 510/800, Loss=0.043932
+Epoch 66, Itrs 520/800, Loss=0.040958
+Epoch 67, Itrs 530/800, Loss=0.041947
+Epoch 68, Itrs 540/800, Loss=0.041524
+Epoch 70, Itrs 550/800, Loss=0.041860
+Epoch 71, Itrs 560/800, Loss=0.039100
+Epoch 72, Itrs 570/800, Loss=0.041779
+Epoch 73, Itrs 580/800, Loss=0.042520
+Epoch 75, Itrs 590/800, Loss=0.040163
+Epoch 76, Itrs 600/800, Loss=0.038785
+Model saved as checkpoints/latest_deeplabv3plus_mobilenet_custom_os16.pth
+validation...
+10it [00:02,  4.63it/s]
+
+Foreground Acc: 0.783877
+Precision: 0.872120
+Recall: 0.783877
+F1 Score: 0.825648
+IoU Foreground: 0.703066
+IoU Background: 0.944186
+Mean IoU: 0.823626
+
+Validation Loss: 0.166846
+Early stopping triggered after 6 validation intervals
+Epoch 78, Itrs 610/800, Loss=0.039505
+Epoch 79, Itrs 620/800, Loss=0.043629
+Epoch 80, Itrs 630/800, Loss=0.038908
+Epoch 81, Itrs 640/800, Loss=0.037901
+Epoch 83, Itrs 650/800, Loss=0.040385
+Epoch 84, Itrs 660/800, Loss=0.042125
+Epoch 85, Itrs 670/800, Loss=0.036884
+Epoch 86, Itrs 680/800, Loss=0.040928
+Epoch 88, Itrs 690/800, Loss=0.038196
+Epoch 89, Itrs 700/800, Loss=0.041177
+Model saved as checkpoints/latest_deeplabv3plus_mobilenet_custom_os16.pth
+validation...
+10it [00:01,  8.67it/s]
+
+Foreground Acc: 0.790735
+Precision: 0.867021
+Recall: 0.790735
+F1 Score: 0.827123
+IoU Foreground: 0.705208
+IoU Background: 0.944209
+Mean IoU: 0.824709
+
+Validation Loss: 0.168535
+Early stopping triggered after 7 validation intervals
+Epoch 91, Itrs 710/800, Loss=0.039238
+Epoch 92, Itrs 720/800, Loss=0.038145
+Epoch 93, Itrs 730/800, Loss=0.042111
+Epoch 94, Itrs 740/800, Loss=0.038708
+Epoch 96, Itrs 750/800, Loss=0.040101
+Epoch 97, Itrs 760/800, Loss=0.037286
+Epoch 98, Itrs 770/800, Loss=0.039101
+Epoch 99, Itrs 780/800, Loss=0.038221
+Epoch 101, Itrs 790/800, Loss=0.037893
+Epoch 102, Itrs 800/800, Loss=0.042117
+Model saved as checkpoints/latest_deeplabv3plus_mobilenet_custom_os16.pth
+validation...
+10it [00:01,  8.80it/s]
+
+Foreground Acc: 0.784154
+Precision: 0.870396
+Recall: 0.784154
+F1 Score: 0.825027
+IoU Foreground: 0.702167
+IoU Background: 0.943923
+Mean IoU: 0.823045
+
+Validation Loss: 0.191201
+Early stopping triggered after 8 validation intervals

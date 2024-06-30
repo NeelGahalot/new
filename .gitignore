@@ -1,0 +1,13 @@
+# Example .gitignore file
+*.csv
+*.jpg
+sensitive_check.py
+*.npy
+*.pth
+Deeplab/overlay_predict.ipynb
+Deeplab/credentials.env
+.ipython/profile_default/history.sqlite
+weights/groundingdino_swint_ogc.pth.1
+Sam_LoRA/lora_weights/lora_rank512.safetensors
+yolov9/weights/best.pt
+webapp_client_secret.json
