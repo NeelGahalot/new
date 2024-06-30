@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 def get_argparser():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--query_url", default='https://prod-k8s.treetracker.org/query/trees?', type=str,
+    parser.add_argument("--query_url", default='', type=str,
                         help="Base URL for querying data")
     parser.add_argument("--output_file_path", default='/teamspace/studios/production_sampling_1000_itr_3.csv', type=str,
                         help="Path to the output CSV file")
