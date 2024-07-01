@@ -1,0 +1,12 @@
+# Example .gitignore file
+*.csv
+*.jpg
+DB_connection.ipynb
+*.pyc
+*.env
+*.npy
+*.pth
+process_confidence.py
+dataset_cleaned_download.py
+dataset_download.py
+overlay_predict.ipynb
